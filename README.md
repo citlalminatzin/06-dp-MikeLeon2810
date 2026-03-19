@@ -1,2 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/H9mzqD3z)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23199738)
+## ¿Qué pasa con la sucesión al infinito?
+
+Tenmos que la sucesón de Tribonacci está dada como 
+
+$T_n = T_{n-3} +T_{n-2}+ T_{n-1}$
+donnde $T_n  \geq 0 \ \forall n in \mathbb{N}$
+Así, responder la apregunta es quivalente a  resolver el siguiente límite
+
+$\lim_{n \to \infty} T_n$
+ 
+Por como está definido $T_n$ es fácil ver que está es creciente, de hecho, es exponencialmente creciente pues con un poco de tabulación se ve que los números van en rápido aumento y dado que es la suma de los 3 índices anteriores (naturales), por pura intuición, se ve que no hay un límite a la suma de estos los $T_n$, ie , $\lim_{n \to \infty} T_n= \infty$.
+
+Otra forma de verlo es que (al investigar en internet) $T_n \approx C\lambda^n$  donde $\lambda >1$ asi si $n \to \infty$ se tiene que $T_n \to \infty$
+
+
+
