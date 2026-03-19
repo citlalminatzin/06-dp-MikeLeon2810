@@ -26,11 +26,11 @@ $0 \leq r < m$
 
 Si $m= 10^5= 100,000$  entonces 
 
-$0 leq T_n \mod (10^5) < 100,000$
+$0 \leq T_n \mod (10^5) < 100,000$
 
 Es decir
 
-$T_n \mod (10^5) \in \{0,1,..., 99999\}$
+$T_n \mod (10^5) \in {0,1,..., 99999}$
 
 Entonces la función $T_n \mod(10^5)$ es ciclica, por lo que no diverge.
 
